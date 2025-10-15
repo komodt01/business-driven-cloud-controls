@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+*.zip
+build/
+*/.build/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+crash.log
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+*.auto.tfvars
+!.terraform.lock.hcl
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Evidence (keep only the checklist)
+evidence/*
+!evidence/README.md
